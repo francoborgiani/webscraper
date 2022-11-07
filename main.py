@@ -3,11 +3,16 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 from config import config
+import news_objects
 
 logger = logging.getLogger()
 
-def main():
-  logger.info("Starting web scrapper")
+def main(news_site_uid):
+  host = config()['news_sites'][news_site_uid]['url']
+  
+  logger.info(f"Beginning scraper for url {host}")
+  
+  news_object = news_objects.NewsPage(news_site_uid, host)
 
 if __name__ == "__main__":
   # Instance arg parser
@@ -25,4 +30,4 @@ if __name__ == "__main__":
   # Get parsed arguments
   args = parser.parse_args() 
   
-  main()
+  main(args.news_site_uid)
