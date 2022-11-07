@@ -1,0 +1,26 @@
+news_sites:
+  ovacion:
+    url: https://www.elobservador.com.uy
+    queries:
+      homepage_article_links: 'h3.volanta a'
+      article_body: 'p.intro'
+      article_title: 'h1.titulo--principal'
+  elpais:
+    url: https://www.elpais.com.uy
+    queries:
+      homepage_article_links: '.page-link'
+      article_body: 'h2.epigraph'
+      article_title: 'h1.title'
+# news_sites:
+#   ovacion:
+#     url: https://www.elobservador.com.uy
+#     queries:
+#       homepage_article_links: 'h3.volanta a'
+#       article_body: 'p.intro'
+#       article_title: 'h1.titulo--principal'
+#   elpais:
+#     url: https://www.elpais.com.uy
+#     queries:
+#       homepage_article_links: '.page-link'
+#       article_body: 'h2.epigraph'
+#       article_title: 'h1.title'

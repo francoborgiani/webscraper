@@ -14,4 +14,4 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-If you found issues, please send it.
+If you found issues, please let me know.
