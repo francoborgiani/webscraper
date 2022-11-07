@@ -1,4 +1,6 @@
-# Python Web Scraper made by Franco Borgiani
+# Python News Web Scraper made by Franco Borgiani
+
+## The mission of this scraper, is get the news titles and bodys from news websites
 
 ## Installation guide
 
