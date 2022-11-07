@@ -1,4 +1,6 @@
-# Installation guide
+# Python Web Scraper made by Franco Borgiani
+
+## Installation guide
 
 Python Version (3.8)
 ```
